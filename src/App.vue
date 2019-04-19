@@ -2,7 +2,10 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/about">About</router-link> |
+			<!-- router-link 即添加路由的访问路径 -->
+			<router-link to="/info">Info</router-link>
+            
     </div>
     <router-view/>
   </div>

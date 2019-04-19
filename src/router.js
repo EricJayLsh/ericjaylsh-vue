@@ -1,9 +1,11 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
+import Info from './views/info.vue'
 
 Vue.use(Router)
 
+// 路由管理
 export default new Router({
   routes: [
     {
@@ -11,6 +13,11 @@ export default new Router({
       name: 'home',
       component: Home
     },
+		{
+		  path: '/info',
+		  name: 'info',
+		  component: Info
+		},
     {
       path: '/about',
       name: 'about',
